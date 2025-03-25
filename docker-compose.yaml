@@ -7,7 +7,7 @@ networks:
   
 services:
   todo-application:
-    image: todo-application-image:latest
+    image: chandradevops007/todo-application-image:latest
     container_name: todo-application
     build:
       context: .

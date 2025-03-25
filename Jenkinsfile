@@ -2,7 +2,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "todo-application-image:latest"
+        DOCKER_IMAGE = "chandradevops007/todo-application-image:latest"
         }
         stages {
             stage()'Clone the repo')
